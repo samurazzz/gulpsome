@@ -1,0 +1,32 @@
+{
+	"name": "gulpsome",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "gulp",
+		"build": "gulp build"
+	},
+	"author": "Dmitry Dorogavtsev",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.10.5",
+		"@babel/plugin-proposal-class-properties": "^7.12.1",
+		"@babel/preset-env": "^7.10.4",
+		"@rollup/plugin-babel": "^5.2.2",
+		"@rollup/plugin-commonjs": "^17.0.0",
+		"@rollup/plugin-node-resolve": "^11.1.0",
+		"browser-sync": "^2.26.10",
+		"del": "^5.1.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-better-rollup": "^4.0.1",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-imagemin": "^7.1.0",
+		"gulp-pug": "^4.0.1",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-uglify": "^3.0.2",
+		"rollup": "^2.37.1"
+	}
+}

@@ -1,0 +1,26 @@
+//- = Imports =
+include ../Header
+include ../Footer
+
+block variables
+	- const title = 'Главная страница | Gulpsome';
+	- const lang = 'ru';
+	- const path = '../';
+
+doctype html
+html(lang=lang)
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(href=`${path}css/main.css`, rel="stylesheet")
+		title #{title}
+	body
+		+Header(path)
+
+		main.main
+			block content
+
+		+Footer(path)
+
+		block scripts
+			script(src=`${path}js/main.js`)

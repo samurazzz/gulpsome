@@ -1,0 +1,8 @@
+// = Transitions =
+@mixin transition--single($property) {
+	transition: $property 0.3s ease;
+}
+
+@mixin transition--all {
+	transition: all 0.3s ease;
+}

@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: calc((16px / 100) * 62.5);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font: $font__regular $font__default/normal 'Roboto', Helvetica, Arial, sans-serif;
+	color: $color__dark;
+	background: $color__light;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+ul,
+p {
+	margin: 0;
+	padding: 0;
+}
