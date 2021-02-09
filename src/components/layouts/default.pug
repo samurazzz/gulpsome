@@ -2,9 +2,11 @@
 include ../Header
 include ../Footer
 
+- const lang = 'ru';
+- const js_files = ['main.js'];
+
 block variables
 	- const title = 'Главная страница | Gulpsome';
-	- const lang = 'ru';
 	- const path = '../';
 
 doctype html
@@ -23,4 +25,5 @@ html(lang=lang)
 		+Footer(path)
 
 		block scripts
-			script(src=`${path}js/main.js`)
+			each item in js_files
+				script(src=`${path}js/${item}`)
