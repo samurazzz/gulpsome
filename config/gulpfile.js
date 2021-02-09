@@ -14,6 +14,5 @@ const imagesProd = require('./tasks/imagesProd');
 const fonts = require('./tasks/fonts');
 
 // = Exports =
-exports.html = html;
 exports.default = series(clean, parallel(serve, scriptsDev, stylesDev, html, imagesDev, fonts));
 exports.build = series(clean, parallel(scriptsProd, stylesProd, html, imagesProd, fonts));

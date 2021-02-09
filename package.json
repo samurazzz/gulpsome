@@ -4,7 +4,6 @@
 	"private": true,
 	"scripts": {
 		"start": "gulp --gulpfile ./config/gulpfile.js",
-		"task": "gulp html --gulpfile ./config/gulpfile.js",
 		"build": "gulp build --gulpfile ./config/gulpfile.js"
 	},
 	"author": "Dmitry Dorogavtsev",
