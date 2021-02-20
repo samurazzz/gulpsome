@@ -1,10 +1,10 @@
 {
 	"name": "gulpsome",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"private": true,
 	"scripts": {
-		"start": "gulp --gulpfile ./config/gulpfile.js",
-		"build": "gulp build --gulpfile ./config/gulpfile.js"
+		"start": "gulp",
+		"build": "gulp build"
 	},
 	"author": "Dmitry Dorogavtsev",
 	"license": "ISC",
@@ -17,16 +17,13 @@
 		"gulp": "^4.0.2",
 		"gulp-autoprefixer": "^7.0.1",
 		"gulp-clean-css": "^4.3.0",
-		"gulp-cli": "^2.3.0",
 		"gulp-group-css-media-queries": "^1.2.2",
 		"gulp-imagemin": "^7.1.0",
 		"gulp-pug": "^4.0.1",
 		"gulp-sass": "^4.1.0",
 		"gulp-sourcemaps": "^2.6.5",
-		"gulp-uglify": "^3.0.2",
 		"through2": "^4.0.2",
 		"webpack": "^5.21.2",
 		"webpack-stream": "^6.1.2"
-	},
-	"dependencies": {}
+	}
 }

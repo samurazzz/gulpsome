@@ -1,6 +1,7 @@
 // = Helpers =
 @import './helpers/variables';
 @import './helpers/mixins';
+@import './helpers/media';
 
 // = Tools =
 @import './tools/normalize';
@@ -10,11 +11,11 @@
 @import './base/global';
 
 // = Layouts =
-@import './layouts/header';
-@import './layouts/footer';
+@import './components/header';
+@import './components/footer';
 
 // = Modules =
-@import './modules/container';
+@import './components/container';
 
 // = Pages =
 @import './pages/index';
